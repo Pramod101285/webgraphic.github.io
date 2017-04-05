@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0}
+body {width: 100%; height: auto;}
+.clear{ clear: both}
+a{ text-decoration: none}
+@font-face{font-family:"f"; src: url('../fonts/FRABK.ttf');}
+@font-face{font-family:"ft55"; src: url('../fonts/Frutiger CE 55 Roman.ttf');}
+@font-face{font-family:"fc45"; src: url('../fonts/Frutiger CE 45 Light.ttf');}
+@font-face{font-family:"LT"; src: url('../fonts/Frutiger LT 57 Condensed.ttf');}
+@font-face{font-family:"fb77"; src: url('../fonts/Frutiger LT 77 Black Condensed.ttf');}
+
+.wrapper-1{
+    background: #ffffff;
+    border-top: 5px solid #fe9b00
+}
+
+.header{ width: 1000px; height: 140px; margin: 0 auto}
+.logo{ width: 191px; height: 140px; float: left;}
+.logo img{ margin-top: 15px;}
+.header_right { width: 809px; float: right; height: auto;}
+.mobile_mail {width: 385px; margin-top: 30px; float: right;}
+.mail {width: auto; float: right; display: inline-block;}
+.mail img {display: inline-block;}
+.mail p {float: right; font-family: fc45; letter-spacing: 0.4px; font-size: 14px; padding: 4px 0 0 5px;}
+.mail p a {color: #757575;}
+.mobile {margin-right: 10px; float: left;}
+.mobile img {display: inline-block;}
+.mobile p {float: right; font-family: fc45; letter-spacing: 0.4px; color: #757575; font-size: 14px; padding: 5px 0px 0 5px;}
+.nav{ float: right; margin-top: 43px;}
+.nav ul{float: right;}
+.nav ul li{ margin-left: 40px; float: left; display: inline-block; list-style: none;}
+.nav ul li a{ font-size: 14px; letter-spacing: 0.8px; font-family: fc45; color: #fe9b00; text-transform: uppercase}
+.nav ul .active a{ color: #090909}
+.nav ul li a:hover:not(.active) {color: #090909;}
+
+/*Header Ends*/
+
+
+
+#features_main {width: 1000px; height: 425px; position: relative; margin: 0 auto;}
+.main_text {font-family: ft55; font-size: 25px; color: #fe9b00; text-align: center; margin-top: 55px;}
+.container {width: 950px; position: absolute; margin: 95px 25px 50px 25px;}
+#effect { width: 200px; height: 200px; overflow: hidden; float: left}
+#effect {margin-right:50px;}
+#effect:last-child {margin-right: 0;}
+#effect { cursor: pointer; transition: transform 0.5s;}
+#effect:hover {transform: scale(1.3,1.3); }
+#box { width: 205px; height: 205px; position: relative; background-color: rgb(255,138,0); transition: transform 0.5s;}
+.unique {width: 60px; height: 60px; position: absolute; margin: 40px 0 0 70px;}
+.maintext_unique {font-family: fc45; font-size: 16px; text-align: center; color: #ffffff; position: absolute; margin: 125px 0 0 52px; letter-spacing: 0.5px;}
+.fourth {margin-left: 60px}
+.pixelthird {margin-left: 55px;}
+.text_unique {font-family: fc45; font-size: 12px; text-align: center; padding: 15px; color: #ffffff; position: absolute; margin-top: 140px;}
+#effect:hover #box {transform: translateY(-205px)}
+
+#kit_full {width: 100%; background-color: #f9f9f9; height: 400px; margin: 0 auto;}
+.kit_center {width: 1000px; height: 400px; overflow: hidden; margin: 0 auto;}
+.kit_part_full {width: 670px; height: 400px; float: left;}
+.build_kit_img {width: auto; height: 375px; float: right; margin-top: 25px;}
+.kit_mainheading {font-family: ft55; font-size: 25px; width: 600px; color: #1f1e1c; text-align: left; margin: 55px 0 0 5px;}
+.kit_part {width: 310px; height: 100px; float: left; margin-top: 50px;}
+.part2, .part4 { float: right;}
+.part3, .part4 {margin-top: 20px}
+.kit_part_img {width: 65px; height: 65px; float: left; margin-right: 15px;}
+.kit_part_maintext {font-family: fc45; font-size: 15px; color: #646464; letter-spacing: 0.4px; padding-top: 5px;}
+.kit_part_matter {font-family: fc45; font-size: 10px; color: #c1c1c1; text-align: left; letter-spacing: 0.1px; padding-top: 10px;}
+
+.portfolio {width: 1000px; height: 1200px; margin: 0 auto;}
+.port_maintext {font-family: fb77; font-size: 25px; color: #1f1e1c; letter-spacing: 0.4px; text-align: center; margin: 80px 0 30px 0;}
+.port_graphictext {font-family: fc45; font-size: 20px; color: #fe9b00; text-align: center; letter-spacing: 0.4px;}
+.graphicbtmline {background-image: url('../images/graphicdesign_btmline.png'); width: 1000px; height: 1px; margin-bottom: 10px;}
+.port_graphic { width: 1000px; height: 350px;}
+.port_illustrationtext {font-family: fc45; font-size: 20px; color: #fe9b00; text-align: center; letter-spacing: 0.4px; margin-top: 100px;}
+.illustrationbtmline {background-image: url('../images/Illustration_btmline.png'); width: 1000px; height: 1px; margin-bottom: 10px;}
+.port_illustration {width: 998px; height: 200px; margin: 0 auto;}
+.port_flashtext {font-family: fc45; font-size: 20px; color: #fe9b00; text-align: center; letter-spacing: 0.4px; margin-top: 80px;}
+.flashbtmline {background-image: url('../images/graphicdesign_btmline.png'); width: 1000px; height: 1px; margin-bottom: 10px;}
+.port_flash {width: 998px; height: 200px; margin: 0 auto;}
+.thumb {width: 150px; height: 150px; float: left; margin: 20px 20px 0 0;}
+.thumbtwelth, .thumbsixth, .seventeenth, .twentytwo {margin-right: 0;}
+.thirteenth, .fourteenth, .fifteenth, .sixteenth, .eighteen, .ninteen, .twenty, .twentyone {margin-right: 62px;}
+.lightbox {visibility: hidden; opacity: 0; top: 0; left: 0; position: absolute; background-color: rgba(72,73,74,0.6); width: 100%; height: 4000px;}
+.lightbox:target {visibility: visible; opacity: 1; transition: opacity 1.5s;}
+.outer {background-color: #fff6e2; width: min-content; height: auto; margin: auto; margin-top: 40px; box-shadow: 0 0 35px black; padding: 20px; border-radius: 10px;}
+.close {font-family: ft55; font-size: 18px; color: #43392c; float: right; padding-bottom: 10px;}
+.inner {}
+.next {float: right;}
+.previous, .next {opacity: 0.8; position: relative;}
+
+#htmlcss_design {width: 100%; background-color: #f9f9f9; height: 400px; margin: 0 auto;}
+.htmlcss_center {width: 1000px; height: 400px; overflow: hidden; margin: 0 auto;}
+.system_img {width: 260px; height: auto; float: left; margin: 100px 0 auto 50px;}
+.htmlcss_full {width: 500px; height: 400px; float: right; margin-right: 50px;}
+.htmlcss_mainheading {font-family: ft55; font-size: 20px; color: #000000; padding-top: 75px;}
+.htmlcss_matter {font-family: fc45; font-size: 12px; color: #919191; line-height: 1.6; letter-spacing: 0.4px; padding-top: 35px;}
+.htmlcss_readmore a {font-family: fc45; font-size: 12px; width: 80px; color: #ffffff; background-color: #fe9b00; text-align: center; padding: 10px; margin-top: 40px; display: block;}
+.htmlcss_readmore a:hover {background-color: #262421; color: #fe9b00;}
+
+.skill{ width: 1000px; height: 500px; margin: 0 auto; margin-top: 50px;}
+.skill_part_full, .feature_part_full {width: 500px; height: 500px; float: left;}
+.skill_mainheading, .feature_mainheading {font-family: ft55; font-size: 25px; width: 600px; color: #38342d; text-align: left; letter-spacing: -0.2px; margin: 25px 0 0 40px;}
+.skill_photoshop {width: 175px; height: 160px; float: left; margin-top: 50px;}
+.skill_photoshop_img {width: 100px; height: 100px; margin: 0 auto; background-image: url('../images/Photoshop.png'); font-family: fc45; font-size: 20px; color: #6a5c46; text-align: center; line-height: 100px;}
+.skill_corelillustrator {width: 175px; height: 160px; float: right; margin: 50px 120px 0 0;}
+.skill_corelillustrator_img {width: 100px; height: 100px; margin: 0 auto; background-image: url('../images/Corel&Illustrator.png'); font-family: fc45; font-size: 20px; color: #6a5c46; text-align: center; line-height: 100px;}
+.skill_htmlcss {width: 175px; height: 175px; float: left; margin-top: 5px;}
+.skill_htmlcss_img {width: 100px; height: 100px; margin: 0 auto; background-image: url('../images/htmlcss.png'); font-family: fc45; font-size: 20px; color: #6a5c46; text-align: center; line-height: 100px;}
+.skill_flash {width: 175px; height: 175px; float: right; margin: 5px 120px 0 0;}
+.skill_flash_img {width: 100px; height: 100px; margin: 0 auto; background-image: url('../images/Flash.png'); font-family: fc45; font-size: 20px; color: #6a5c46; text-align: center; line-height: 100px;}
+.skill_part_maintext {font-family: fc45; font-size: 15px; color: #646464; letter-spacing: 0.6px; text-align: center; padding-top: 10px;}
+
+.feature_mainheading {margin-left: 0;}
+.feature_nav {margin-top: 50px; height: 40px; width: 500px;}
+.feature_nav ul li {float: left; margin-right: 13px; list-style: none; display: inline-block; width: 110px; height: 30px; line-height: 30px; text-align: center;}
+.feature_nav ul li a { font-size: 12px; letter-spacing: 0.4px; font-family: fc45; color: #929292; border: 1px solid #fe9b00; display: block;}
+.feature_nav ul .active a {background-color: #fe9b00; color: #ffffff;}
+.feature_nav ul li a:hover:not(.active) {background-color: #fe9b00; color: #ffffff;}
+.graphicimg {margin-top: 30px; float: left;}
+.graphicmatter {font-family: fc45; font-size: 12px; line-height: 1.6; letter-spacing: 0.4px; color: #919191; padding: 30px 0 0 200px;}
+
+#footertop {width: 100%; height: 100px; background-color: #fe9b00;}
+.footertop_text {font-family: fb77; font-size: 25px; letter-spacing: 0.2px; line-height: 100px; text-align: center; color: #ffffff;}
+#footerbottom {width: 100%; height: 375px; background-color: #262421;}
+.footercenter {width: 1000px; height: 325px; margin: 0 auto;}
+.followus {width: 175px; height: 100px; position: absolute; margin-top: 135px; margin-left: 100px;}
+.follow_text {font-family: fc45; font-size: 20px; color: #ffc26a; text-align: center; letter-spacing: 0.5px; padding-bottom: 20px;}
+.services {width: 250px; height: 250px; margin: 85px 0 0 400px; position: absolute;}
+.services_text {font-family: fc45; font-size: 20px; color: #ffc26a; letter-spacing: 0.4px; letter-spacing: 0.5px; padding-bottom: 28px;}
+.services ul li {font-family: ft55; font-size: 15px; color: #6d5e46; padding-bottom: 15px; letter-spacing: 0.2px; list-style: none}
+.contact_info {width: 300px; height: 250px; margin: 85px 0 0 650px; position: absolute;}
+.contacttext {font-family: fc45; font-size: 20px; color: #ffc26a; letter-spacing: 0.4px; padding-bottom: 20px; letter-spacing: 0.5px;}
+.contact_mob, .contact_mail {width: 244px; height: 35px; margin: 10px 0 15px 0;}
+.contact_mob {width: 155px;}
+.contact_mob p {font-family: ft55; font-size: 15px; color: #6d5e46; letter-spacing: 0.2px; line-height: 28px; float: right;}
+.contact_mail p {font-family: ft55; font-size: 15px; color: #6d5e46; line-height: 28px; float: right;}
+.copyright {width: 100%; height: auto; border-top: 1px solid #35322d;}
+.copyright {text-align: center; font-family: fc45; font-size: 12px; color: #50483d; padding-top: 20px;}
+
